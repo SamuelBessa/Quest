@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <img class="img" src="img/bg-repeat.jpg" alt="imagem-fundo">
+
+        <section class="formulario-duvidas">
+            <div class="info">
+                <h2>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h2>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</p>
+            </div>
+
+            <form class="dados-usuario">
+                <div>
+                    <input type="text" name="nome-usuario" class="input" placeholder="Nome completo*">
+                    <p class="erro">campo obrigatório</p>
+                </div>
+
+                <div>
+                    <input type="email" name="email-usuario" class="input" placeholder="Email*">
+                    <p class="erro">campo obrigatório</p>
+                </div>
+
+                <div>
+                    <input type="tel" name="number-usuario" class="input" placeholder="Telefone*">
+                    <p class="erro">campo obrigatório</p>
+                </div>
+
+                <div>
+                    <input type="text" name="mensagem-do-usuario" class="input input-mensagem" placeholder="Mensagem*">
+                    <p class="erro">campo obrigatório</p>
+                    <p>*campos obrigatórios</p>
+                </div>
+
+                <button class="button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
